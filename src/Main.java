@@ -72,6 +72,7 @@ public class Main {
     private static void cadastrarTurma() {
         scanner.nextLine(); // apaga o enter (\n)
         Turma turma = new Turma();
+
         System.out.println("Nome da turma:");
         turma.nome = scanner.nextLine();
         System.out.println("Número mínimo de alunos: ");
