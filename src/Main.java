@@ -61,14 +61,12 @@ public class Main {
         }
     }
 
-    //TODO: Replicar pra curso, estudantes, disciplina, matrícula e campus
-
     public static void gerarRelatorioGeral() {
-        gerarRelatorioCurso();
         gerarRelatorioTurma();
         gerarRelatorioCampus();
-        gerarRelatorioEstudante();
         gerarRelatorioMatricula();
+        gerarRelatorioCurso();
+        gerarRelatorioEstudante();
     }
 
     public static void gerarRelatorioTurma() {
